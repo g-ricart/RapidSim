@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RapidSim.exe.dir/RapidAcceptance.cc.o"
   "CMakeFiles/RapidSim.exe.dir/RapidAcceptanceLHCb.cc.o"
+  "CMakeFiles/RapidSim.exe.dir/RapidAcceptanceMFT.cc.o"
   "CMakeFiles/RapidSim.exe.dir/RapidBeamData.cc.o"
   "CMakeFiles/RapidSim.exe.dir/RapidConfig.cc.o"
   "CMakeFiles/RapidSim.exe.dir/RapidCut.cc.o"

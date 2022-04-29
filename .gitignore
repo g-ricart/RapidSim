@@ -4,6 +4,7 @@
 
 # build
 build/
+bin/
 
 # validation root files and plots
 validation/*.root
