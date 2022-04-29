@@ -1,0 +1,14 @@
+# binaries and librairies
+*.o
+*.a
+
+# build
+build/
+
+# validation root files and plots
+validation/*.root
+validation/plots
+*.pdf
+
+# decays directory
+decays/
