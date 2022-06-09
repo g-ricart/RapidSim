@@ -277,7 +277,7 @@ bool RapidConfig::loadDecay() {
 				std::cout << "INFO in RapidConfig::loadDecay : Parent is virtual photon." << std::endl;
 				std::cout << "                                 setting gamma* kinematics." << std::endl;
 			} else if(theMother->isPion()) {
-				motherFlavour_ = "p";
+				motherFlavour_ = "pi";
 				std::cout << "INFO in RapidConfig::loadDecay : Parent is pion." << std::endl;
 				std::cout << "                                 setting pion kinematics." << std::endl;
 			} else if(theMother->isKaon()) {
