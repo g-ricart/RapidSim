@@ -137,7 +137,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/local/home/gr269908/RapidSim
+CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -261,7 +261,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 EvtGen_DIR:PATH=EvtGen_DIR-NOTFOUND
 
 //Directory to install RapidSim's data to
-RAPIDSIM_ROOT:STRING=/local/home/gr269908/RapidSim
+RAPIDSIM_ROOT:STRING=/usr/local
 
 //Path to a library.
 ROOT_Core_LIBRARY:FILEPATH=/local/home/gr269908/ROOT/latest/inst/lib/libCore.so
@@ -624,5 +624,5 @@ ROOT_rootmv_CMD-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ROOT_rootrm_CMD
 ROOT_rootrm_CMD-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/local/home/gr269908/RapidSim
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 
