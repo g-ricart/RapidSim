@@ -2,14 +2,7 @@
 *.o
 *.a
 
-# build
-build/
-bin/
-
 # validation root files and plots
 validation/*.root
 validation/plots
 *.pdf
-
-# decays directory
-decays/
