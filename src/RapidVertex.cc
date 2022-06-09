@@ -23,7 +23,7 @@ void RapidVertex::smearVertex() {
 	double zS = 0.04252  + 0.2235 *TMath::Exp(-0.0814*ntracks_);
 //	double zS = 0.48;
 	vertexSmeared_ = ROOT::Math::XYZPoint( \
-			vertexTrue_.X() + gRandom->Gaus(0,xS)*1000., \
-			vertexTrue_.Y() + gRandom->Gaus(0,yS)*1000., \
-			vertexTrue_.Z() + gRandom->Gaus(0,zS)*1000.);
+			vertexTrue_.X() + gRandom->Gaus(0,xS), \
+			vertexTrue_.Y() + gRandom->Gaus(0,yS), \
+			vertexTrue_.Z() + gRandom->Gaus(0,zS));
 }
